@@ -1,27 +1,75 @@
-# AngularLayout
+![Image description](https://i1.faceprep.in/ProGrad/face-logo-resized.png)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
+# ProGrad Lab | Angular Layout
 
-## Development server
+## Introduction
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Mike has recently learnt Angular and wants to to try out his first ever Angular application. He has just started and he know where he stands. So he decided to build a very simple layout. 
 
-## Code scaffolding
+The layout he has shared is similar to what we have discussed during the code along. With your learnings from the code along, we thought you could help out Mike. What say ProGrad?
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Learning Goals
 
-## Build
+After this lab, you will be able to:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- Create a static Angular application with Angular CLI.
+- Build an Angular application with multiple components.
 
-## Running unit tests
+## Requirements
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Fork this repo.
+- Clone this repo.
 
-## Running end-to-end tests
+## Submission
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Upon completion, run the following commands:
 
-## Further help
+```bash
+$ git add .
+$ git commit -m "done"
+$ git push origin master
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Navigate to your repo and create a pull request from your master branch to the original repository's master branch. In the pull request name, add your ProGrad id, name, and last name separated by a dash "-".
+
+## Deliverables
+
+You need to generate the starter code and fill it with the necessary code to satisfy the requirements described below.
+
+## Starter Code
+
+To generate the starter code, follow the steps given below
+
+- To create a new application,
+    - Open your ubuntu or cmd terminal and execute the following command
+      - ```ng new app-name```
+      - for example, ng new super-wars
+    - To create a new component, execute the command 
+      - ``` ng generate component component-name```
+      - example, ng generate component contacts
+      
+## How to run
+
+- To run the project go to your ubuntu terminal or VScode editor
+    - open the ubuntu or cmd terminal or inside the vscode editor
+    - run the command following command
+    - ```ng serve --open or ng serve -o```
+    
+    
+## Progression #1: Layout
+
+You'll need to create an angular layout with header, footer and navigation bar. Use three different components:
+
+- The `Header` component will contain the page header along with the heading.
+- The `Footer` component will contain your page footer.
+- The `Navigation` component will contain your page navigation bar with two links home and about us.
+
+You can check the sample layout shared by Mike for reference. 
+
+Note: The first thing you will have to do is to generate the project with `Angular CLI`.
+
+
+![Layout](https://i1.faceprep.in/ProGrad/ts-layout-using-angular-final.png)
+
+
+Happy Coding ProGrad ❤️!
